@@ -42,9 +42,15 @@ h3{
       background-color: lightblue;
     } */
     main{
-        width: 50%;
+        width: 70%;
         margin: auto;
         
+    }
+    .player img{
+        width: 100px;
+    }
+    .course-l{
+        margin-left: 50px;
     }
   }
 
