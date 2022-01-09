@@ -14,6 +14,7 @@ body{
 }
 main{
     max-width: 870px;
+   
 }
 h3{
     font-family: Poppins;
@@ -23,6 +24,7 @@ h3{
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
+    color: #562EFF;
 
 }
 .mw{
@@ -31,27 +33,38 @@ h3{
 }
 .top-player{
     background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 20px;
 
 }
-/* @media only screen and (max-width: 576px) {
-    .top-player {
+@media only screen and (max-width: 576px) {
+    /* .top-player {
       background-color: lightblue;
-    }
+    } */
     main{
         width: 50%;
         margin: auto;
         
     }
-  } */
+  }
 
-  .blog-img{
+.blog-img{
     height: 117px;
     width: 177px;
     border-radius: [object Object]px;
     
   }
-  .name-sm{
+.name-sm{
     
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #562EFF;
+  }
+  .by{
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
@@ -60,7 +73,7 @@ h3{
     text-align: left;
   }
 
-  @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
       .d-flex, .justify-content-start{
           flex-direction: column;
       }
@@ -68,3 +81,62 @@ h3{
           margin-top: 6px;
       }
   }
+
+.course-l{
+    height: 269.79px;
+    width: 252.42px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px lightgray;
+   
+    
+    
+  }
+
+.course-img{
+    height: 104px;
+    width: 224px;
+    padding-top: 5px;
+    border-radius: [object Object]px;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.08));
+    
+  }
+
+.star-rating{
+      display: flex;
+      flex-direction: row;
+  }
+footer p{
+      text-align: center;
+      font-size: 12px;
+      margin-top: 10px;
+  }
+
+.checked{
+      color: orange;
+  }
+ 
+.rat-s{
+      font-size: 9px;
+      
+    }
+
+.clock-img{
+        width: 15px;
+        height: 15px;
+    }
+
+.t-col{
+        color: orangered;
+    }
+
+.nm{
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.time{
+    background-color: rgb(243, 215, 204);
+    border-radius: 10px;
+    width: 65px;
+    height: 16px;
+}
