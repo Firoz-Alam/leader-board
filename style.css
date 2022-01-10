@@ -51,6 +51,7 @@ h3{
     }
     .course-l{
         margin-left: 5%;
+        
     }
   }
 
@@ -89,7 +90,7 @@ h3{
   }
 
 .course-l{
-    height: 269.79px;
+    height: 280.79px;
     width: 252.42px;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 2px lightgray;
@@ -137,7 +138,7 @@ footer p{
 
 .nm{
     font-size: 14px;
-    line-height: 17px;
+    
 }
 
 .time{
